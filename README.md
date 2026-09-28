@@ -1,208 +1,153 @@
 <div align="center">
 
-# Priyadharshini R
-<div align="center">
+# Hi, I'm Priyadharshini R 👋
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=36BCF7&center=true&vCenter=true&width=850&height=60&lines=I+build+production-style+full-stack+applications;Java+%7C+Spring+Boot+%7C+React+%7C+REST+APIs;Now+building+RAG+%2B+Knowledge+Graphs+%2B+GenAI;Code+%E2%80%A2+Build+%E2%80%A2+Deploy+%E2%80%A2+Improve" alt="typing" />
-
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=36BCF7&center=true&vCenter=true&width=850&height=60&lines=Full-Stack+Developer+%7C+Applied+AI+Engineer;Java+%7C+Spring+Boot+%7C+Python+%7C+FastAPI+%7C+React;Knowledge+Graphs+%2B+LLM+Pipelines+%2B+Vector+Search;I+ship+tested%2C+secure%2C+deployed+software" alt="typing" />
 
 **B.E. Artificial Intelligence & Data Science** · Bannari Amman Institute of Technology
-
-*I build complete, deployed applications: secure backends, clean UIs, and applied AI.*
-
-</div>
-
-<br/>
+**Oracle Certified Professional: Java SE 17 Developer**
 
 <a href="https://www.linkedin.com/in/priyadharshini-r-dev/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-<a href="https://github.com/Priyadharshini1306"><img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>&nbsp;
+<a href="mailto:priyarajan1306@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
 <a href="https://leetcode.com/u/Priyadharshini1306/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>&nbsp;
-<a href="mailto:priyarajan1306@gmail.com"><img src="https://img.shields.io/badge/-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-
-<br/><br/>
-
-<a href="https://car-booking-app-2-46gs.onrender.com/"><img src="https://img.shields.io/badge/-View%20Live%20Project-00C853?style=for-the-badge" alt="Live Project" /></a>&nbsp;
-<img src="https://img.shields.io/badge/-Open%20to%20Internships%20%26%20Full%20Time%20Roles-1F2937?style=for-the-badge" alt="Open to work" />
+<img src="https://img.shields.io/badge/-Open%20to%20Internships%20%26%20Full--Time%20Roles-00C853?style=for-the-badge" alt="Open to work" />
 
 </div>
 
 ---
 
-## About Me
+## 🚀 About Me
 
-I'm a **Java Full Stack Developer** and **AI & Data Science** undergraduate who turns ideas into **complete, working, deployed products**, not just tutorial code.
-
-I own the whole pipeline:
+I build **complete, production-style applications** — from secure backends and database design to polished UIs and AI pipelines — and I test and deploy what I build.
 
 ```text
-Backend  ➜  REST APIs  ➜  Database  ➜  Frontend  ➜  Deployment
+Problem ➜ Architecture ➜ Backend & APIs ➜ Databases ➜ AI Pipeline ➜ Frontend ➜ Tests ➜ Deploy
 ```
 
-**What sets me apart:** solid **backend engineering** (secure APIs, role-based access, data integrity) combined with hands-on **applied AI** (RAG pipelines, knowledge graphs, LLM workflows).
-
-### Currently Focused On
-
-| Area | What I'm doing |
-|------|----------------|
-| **Java & Spring Boot** | Building secure, scalable REST backends |
-| **React.js** | Component-driven, responsive UIs |
-| **Data Structures & Algorithms** | Regular problem solving on LeetCode |
-| **Generative AI** | RAG, LangChain, LangGraph, local LLMs |
-| **Cloud & DevOps** | Docker, cloud deployment, CI/CD basics |
+- 🧩 **Backend engineering:** secure REST APIs, JWT & role-based access, data integrity, clean layered architecture
+- 🤖 **Applied AI:** LLM pipelines with validated structured output, knowledge graphs, vector search, adaptive systems
+- ✅ **Engineering discipline:** unit, integration and end-to-end tests; documented limitations; no secrets in code
 
 ---
 
-## Tech Stack
+## ⭐ Featured Projects
 
-<div align="center">
+### 01 · CurriculumMind AI — Syllabus ➜ Knowledge Graph ➜ Adaptive Study Plan
+
+<img src="https://img.shields.io/badge/Status-Working%20End--to--End-00C853?style=for-the-badge" alt="Status" />&nbsp;
+<a href="https://github.com/Priyadharshini1306/curriculummind-ai"><img src="https://img.shields.io/badge/-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
+
+`Python` `FastAPI` `React` `Neo4j` `MongoDB` `Groq LLM` `sentence-transformers` `Docling` `NetworkX` `Cytoscape.js` `Tailwind`
+
+Upload a syllabus (PDF, DOCX, PPTX, text or a **scanned image**) or simply describe a learning goal. CurriculumMind builds a **concept knowledge graph with prerequisites**, schedules it into a **week-by-week semester plan**, discovers and ranks **learning resources** for every concept, **quizzes** the learner, and **re-plans the path** around their weak spots.
+
+```mermaid
+flowchart LR
+    A["Syllabus / Goal"] --> B["Docling + OCR"]
+    B --> C["LLM Extraction"]
+    C --> V1{"Human Review 1"}
+    V1 --> D["Concepts & Prerequisites"]
+    D --> G["Graph Validation"]
+    G --> V2{"Human Review 2"}
+    V2 --> N[("Neo4j Graph")]
+    N --> S["Topological Sort + Week Allocation"]
+    S --> V3{"Human Review 3"}
+    V3 --> R["Resource Discovery + Vector Matching"]
+    R --> CV["Coverage & Gap Loop"]
+    CV --> Q["Quizzes"]
+    Q --> M["Mastery"]
+    M --> AP["Adaptive Path"]
+    AP --> Q
+```
+
+**What makes it engineering-grade**
 
 | | |
 |---|---|
-| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Frontend** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) |
-| **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) |
-| **Tools & DevOps** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![IntelliJ](https://img.shields.io/badge/IntelliJ-000000?style=flat-square&logo=intellijidea&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) |
+| 🛡️ **LLM output is never trusted** | Structured JSON ➜ Pydantic validation (retry with error fed back) ➜ business rules (duplicates, unknown names, cycles, invalid questions dropped) ➜ human review ➜ database |
+| 🧠 **Graph algorithms** | Cycle / DAG checks, transitive-edge reduction and orphan detection (NetworkX); topological sort + workload-constrained semester & week allocation |
+| 🔎 **Semantic resource matching** | 384-d embeddings stored in **Neo4j vector indexes**; evidence-based coverage %, duplicate detection, heuristic version checks |
+| 🔁 **Bounded gap loop** | Targeted re-search for uncovered concepts, capped at 3 iterations, then flagged `UNRESOLVED_GAP` for the instructor |
+| 📈 **Adaptive learning loop** | Quiz ➜ per-concept mastery ➜ root-cause prerequisite gaps ➜ reshuffled path ➜ quiz again |
+| 🗄️ **Polyglot persistence** | MongoDB Atlas for users, sessions, drafts and quiz history · Neo4j AuraDB for the knowledge graph, linked only by `user_id` |
+| 🔐 **Security** | bcrypt, JWTs bound to server-side sessions (real logout), login throttling, upload signature checks, owner-scoped data, instructor-only endpoints, answers never sent before submission |
+| ✅ **Tested** | **90 offline unit tests** + integration tests against live services + full-pipeline **E2E tests** through the HTTP API |
 
-</div>
-
-**AI / GenAI stack:** `LangChain` · `LangGraph` · `RAG` · `Qdrant (Vector DB)` · `Neo4j (Knowledge Graph)` · `Ollama (Local LLMs)`
-
----
-
-## Certifications
-
-<div align="center">
-
-<img width="402" height="298" alt="image" src="https://github.com/user-attachments/assets/8b6c8411-08c8-4058-9d42-7628ae2aa4b9" />
-
-
-**Oracle Certified Professional: Java SE 17 Developer** · 2022
-
-</div>
+**By the numbers:** 3 human-in-the-loop gates · 2 databases · 40+ REST endpoints across 12 modules · 5 input formats incl. OCR · learner & instructor dashboards
 
 ---
 
-## Featured Projects
-
-### 01 · Car Booking Application
-**Full-stack vehicle booking & fleet management platform**
+### 02 · Car Booking Application — Vehicle Booking & Fleet Management
 
 <a href="https://car-booking-app-2-46gs.onrender.com/"><img src="https://img.shields.io/badge/-Live%20Demo-00C853?style=for-the-badge" alt="Live Demo" /></a>&nbsp;
 <a href="https://github.com/Priyadharshini1306/car-booking-app"><img src="https://img.shields.io/badge/-Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" /></a>
 
-`Java` `Spring Boot` `Spring Security` `MySQL` `WebSockets` `HTML` `CSS` `JavaScript` `Render`
+`Java` `Spring Boot` `Spring Security` `MySQL` `WebSockets` `JavaScript` `Render`
 
-A complete platform that manages **vehicles, bookings, drivers, users and administrators**, with real-time communication and automated compliance tracking.
+A deployed platform managing **vehicles, bookings, drivers, users and admins**, with real-time messaging and automated compliance tracking.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**Security & Access**
-- Authentication & authorization
-- USER / ADMIN role-based access
-- Secure REST APIs with Spring Security
-
-**Booking Engine**
-- Advanced vehicle search & filtering
-- Hourly and daily booking
-- Booking **overlap prevention**
-- Driver assignment
-- Ratings & feedback system
-
-</td>
-<td width="50%" valign="top">
-
-**Operations & Admin**
-- Vehicle maintenance management
-- Driver shift & leave management
-- Vehicle document expiry monitoring
-- Driver license expiry monitoring
-
-**Real-Time**
-- Live user ↔ admin communication via WebSockets
-
-</td>
-</tr>
-</table>
-
-**Architecture**
+- 🔐 **USER / ADMIN role-based access** with Spring Security
+- 📅 **Booking engine** with hourly/daily booking and **double-booking prevention** for the same vehicle and time window
+- 🧑‍✈️ Driver assignment, shifts, leave, ratings and feedback
+- ⏰ **Expiry monitoring** for vehicle documents and driver licenses
+- ⚡ **Live user ↔ admin chat** over WebSockets
+- 🏗️ Layered controller ➜ service ➜ repository design, deployed end-to-end on Render
 
 ```mermaid
 flowchart LR
-    A[Web Client<br/>HTML · CSS · JS] -->|REST| B[Spring Boot API]
+    A["Web Client"] -->|REST| B["Spring Boot API"]
     A <-->|WebSocket| B
-    B --> C[Spring Security<br/>USER / ADMIN]
-    B --> D[(MySQL)]
-    B --> E[Booking Engine<br/>Overlap Prevention]
-    B --> F[Expiry Monitoring<br/>Documents & Licenses]
+    B --> C["Spring Security"]
+    B --> E["Booking Engine"]
+    B --> F["Expiry Monitoring"]
+    B --> D[("MySQL")]
 ```
 
-**Engineering highlights**
-- Designed booking logic that prevents **double-booking** for the same vehicle and time window
-- Separated concerns across controller, service and repository layers
-- Deployed end-to-end on **Render** as a live, publicly usable application
+---
+
+## 🛠️ Tech Stack
+
+| | |
+|---|---|
+| **Languages** | ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
+| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Databases** | ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **AI / ML** | ![LLM APIs](https://img.shields.io/badge/Groq%20%7C%20Ollama-111827?style=flat-square) ![Embeddings](https://img.shields.io/badge/sentence--transformers-FF6F00?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Knowledge Graphs](https://img.shields.io/badge/Knowledge%20Graphs-008CC1?style=flat-square) |
+| **Testing & DevOps** | ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) |
 
 ---
 
-### 02 · CurriculumMind AI
-**AI-powered curriculum analysis & personalized learning platform**
-
-<img src="https://img.shields.io/badge/-In%20Development-F97316?style=for-the-badge" alt="In Development" />
-
-`Python` `FastAPI` `React.js` `LangChain` `LangGraph` `RAG` `Neo4j` `Qdrant` `MongoDB` `Ollama`
-
-An AI system I'm currently building that reads academic syllabus documents and converts them into a **structured knowledge graph**, finds matching learning resources, detects **knowledge gaps**, and generates **quizzes and personalized learning paths**.
-
-**Core Workflow**
-
-```mermaid
-flowchart TD
-    A[Syllabus Upload] --> B[Text Extraction]
-    B --> C[AI Curriculum Analysis]
-    C --> D[Course / Unit / Topic Extraction]
-    D --> E{Human Review<br/>& Correction}
-    E --> F[Knowledge Graph<br/>Neo4j]
-    F --> G[Resource Discovery]
-    G --> H[Semantic Matching<br/>Qdrant Vector Search]
-    H --> I[Coverage Analysis]
-    I --> J[Knowledge Gap Detection]
-    J --> K[Quiz Generation]
-    K --> L[Personalized Learning Path]
-```
-
-**Design highlights**
-- **Human-in-the-loop** review step so AI output is corrected before it enters the knowledge graph
-- **Hybrid retrieval:** graph relationships (Neo4j) combined with semantic similarity (Qdrant)
-- Runs on **local LLMs via Ollama**, so there is no dependency on paid APIs
-- Agent-style pipeline orchestrated with **LangGraph**
-
----
-
-## Roadmap
-
-- [x] Full-stack Java application with security, real-time features and cloud deployment
-- [ ] CurriculumMind AI: RAG pipeline, knowledge graph and personalized learning paths *(in progress)*
-- [ ] Dockerize and add CI/CD pipelines to all projects
-- [ ] Deploy Spring Boot + React architecture on cloud
-- [ ] Keep growing on LeetCode (DSA consistency)
-- [ ] Contribute to open-source
-
----
-
-## Let's Connect
-
-I'm looking for **internship and entry-level opportunities** in **Java / Full Stack / AI-enabled development**.
+## 🏆 Certifications
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/priyadharshini-r-dev/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
-<a href="mailto:priyarajan1306@gmail.com"><img src="https://img.shields.io/badge/-priyarajan1306@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;
-<a href="https://leetcode.com/u/Priyadharshini1306/"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+<img width="402" height="298" alt="Oracle Certified Professional Java SE 17 Developer" src="https://github.com/user-attachments/assets/8b6c8411-08c8-4058-9d42-7628ae2aa4b9" />
 
-<br/><br/>
+**Oracle Certified Professional: Java SE 17 Developer**
+
+</div>
+
+---
+
+## 🗺️ What's Next
+
+- [x] Deployed full-stack Java app with security and real-time features
+- [x] CurriculumMind AI: knowledge graph, semester sequencing, resource coverage and adaptive learning loop
+- [ ] CurriculumMind AI: Celery + Redis workers, Docker, CI/CD and cloud deployment
+- [ ] Spring Boot + React application deployed on cloud
+- [ ] Consistent DSA practice on LeetCode · open-source contributions
+
+---
+
+<div align="center">
+
+### 🤝 Let's Connect
+
+Looking for **internship and entry-level roles** in **Java / Full-Stack / AI-enabled development**.
+
+<a href="https://www.linkedin.com/in/priyadharshini-r-dev/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;
+<a href="mailto:priyarajan1306@gmail.com"><img src="https://img.shields.io/badge/-priyarajan1306@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 *"Make it work, make it right, make it fast."*
 
