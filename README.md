@@ -124,7 +124,7 @@ flowchart LR
 
 <img width="402" height="298" alt="Oracle Certified Professional Java SE 17 Developer" src="https://github.com/user-attachments/assets/8b6c8411-08c8-4058-9d42-7628ae2aa4b9" />
 
-**Oracle Certified Professional: Java SE 17 Developer**
+**Oracle Certified Professional**
 
 </div>
 
